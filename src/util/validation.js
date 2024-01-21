@@ -6,7 +6,7 @@ export function isNotEmpty(value) {
   return value.trim() !== '';
 }
 
-export function hasMinLength(value, minLength) {
+export function isMinLength(value, minLength) {
   return value.length >= minLength;
 }
 
